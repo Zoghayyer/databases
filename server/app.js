@@ -29,5 +29,3 @@ if (!module.parent) {
   app.listen(app.get('port'));
   console.log('Listening on', app.get('port'));
 }
-
-/** Nodemon app.js - in one console window! **/
