@@ -1,5 +1,4 @@
 var mysql = require('mysql');
-// You might need to npm install the request module!
 var request = require('request');
 var expect = require('chai').expect;
 
