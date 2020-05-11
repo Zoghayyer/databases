@@ -18,14 +18,12 @@ module.exports = {
             throw error;
             console.log('Error Posting to Server: ', err);
           }
-
           res.sendStatus(201);
         });
 
       });
     }
   },
-
   users: {
     get: function (req, res) {
       models.users.get(function(err, results) {
