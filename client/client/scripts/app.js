@@ -167,7 +167,6 @@ var app = {
   },
 
   handleUsernameClick: function(event) {
-
     // Get username from data attribute
     var username = $(event.target).data('username');
 
@@ -184,7 +183,6 @@ var app = {
   },
 
   handleRoomChange: function(event) {
-
     var selectIndex = app.$roomSelect.prop('selectedIndex');
     // New room is always the first option
     if (selectIndex === 0) {
